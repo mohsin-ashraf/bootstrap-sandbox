@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manu Active Class</title>
+</head>
+<style type="text/css">
+	body{
+		background: black;
+		font-family: sans-serif;
+		text-align: center;
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+	}
+	ul li{
+		margin-top: 350px;
+		list-style: none;
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		font-size: 23px;
+		font-weight: bold;
+		color: white;
+		padding: 15px;
+	}
+	.active{
+		background-color: #888;
+		border-radius: 11px;
+	}
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<body>
+	<ul>
+		<li class="active"><a href="#" class="">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Blog</a></li>
+	</ul>
+</body>
+<script type="text/javascript">
+	$(document).on("click","ul li",function () {
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+</script>
+</html>

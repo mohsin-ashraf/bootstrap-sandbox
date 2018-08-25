@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selenium Testing JavaScript Hover Border</title>
+	<style>
+		.border{
+			border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, mollitia, asperiores. Quo, in.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quos delectus iure dolores.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, reiciendis expedita consequuntur ad.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis hic fuga, quaerat debitis!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi est sequi culpa, quod.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui tenetur animi recusandae beatae.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde et ab, tenetur error!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui maiores nesciunt exercitationem tempora?</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt quia fugiat deleniti.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam alias porro voluptates labore?</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati temporibus corporis quidem quo.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem nam dolorum maiores.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum, facere at blanditiis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum adipisci molestias unde esse.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium minima, ipsa iste.</p>
+
+	<span>single</span>
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).on("mouseover",function (e) {
+			var element = e.target;
+			// console.log(element);
+			$(element).addClass("border");
+			$(element).on("mouseleave",function (e) {
+				$(this).removeClass("border");
+			});
+			$(element).on("click",function (e) {
+				console.log($(e.target).html());
+			});
+		});
+	</script>
+</body>
+</html>

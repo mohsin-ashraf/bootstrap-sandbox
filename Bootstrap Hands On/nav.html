@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+	<style>
+		.group{
+			border:1px solid #e1e1e1;
+			padding: 25px;
+			box-shadow: 10px 10px 20px #eee;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container mt-5 ">
+		
+		<!-- nav first example -->
+		<div class="group mb-5">
+			<ul class="nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<nav class="nav w-100" style="width: 100%;">
+				<a href="#" class="nav-link active">Active</a>
+				<a href="#" class="nav-link">Link 5</a>
+				<a href="#" class="nav-link">Link 5</a>
+				<a href="#" class="nav-link">Link 5</a>
+				<a href="#" class="nav-link disabled">Disabled</a>
+				<a href="#navmodal1" data-toggle="modal" class="btn btn-primary ">Launch modal</a>
+
+				<div class="modal fade" id="navmodal1">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="mb-3 modal-title">Modal Title</h1>
+								<button class="close" data-dismiss="modal"><span data-hidden="true">&times;</span></button>
+							</div>
+							<div class="modal-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore saepe dolores natus alias, officiis sint odit magnam corporis eius beatae ipsam incidunt voluptate repellendus at placeat consequatur quas ex.
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+								<button class="btn btn-outline-success">Do what needs to be done</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav justify-content-center">
+				<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav justify-content-between">
+				<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+			</ul>
+		</div>
+	
+		<div class="group mb-5">
+			<ul class="nav justify-content-end">
+				<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav flex-column">
+				<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</ul>
+		</div>
+		<div class="group mb-5">
+			<nav class="nav flex-column">
+				<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</nav>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav nav-tabs">
+				<li class="nav-item"><a href="#" class="nav-link active">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav nav-pills">
+				<li class="nav-item"><a href="#" class="nav-link active">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<ul class="nav nav-pills nav-fill">
+				<li class="nav-item"><a href="#" class="nav-link active">Link 1</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 5</a></li>
+			</ul>
+		</div>
+
+		<div class="group mb-5">
+			<nav class="nav nav-pills nav-justified">
+			  <a class="nav-link active" href="#">Active</a>
+			  <a class="nav-link" href="#">Longer nav link</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link disabled" href="#">Disabled</a>
+			</nav>
+		</div>
+
+		<div class="group mb-5">
+			<nav class="nav nav-pills nav-justified">
+			  <a class="nav-item nav-link active" href="#">Active</a>
+			  <a class="nav-item nav-link" href="#">Longer nav link</a>
+			  <a class="nav-item nav-link" href="#">Link</a>
+			  <a class="nav-item nav-link disabled" href="#">Disabled</a>
+			</nav>
+		</div>
+		
+
+		<div class="group mb-5">
+			<nav class="nav nav-pills flex-column flex-sm-row">
+				<a href="#" class="flex-sm-fill text-sm-center nav-link">Link 1</a>
+				<a href="#" class="flex-sm-fill text-sm-center nav-link">Link 2</a>
+				<a href="#" class="flex-sm-fill text-sm-center nav-link">Link 3</a>
+				<a href="#" class="flex-sm-fill text-sm-center nav-link">Link 4</a>
+				<a href="#" class="flex-sm-fill text-sm-center nav-link">Link 5</a>
+			</nav>
+		</div>
+
+		
+		<div class="group mb-5">
+			<ul class="nav nav-tabs">
+				<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Dropdown
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">Dropdown item 1</a>
+						<a href="#" class="dropdown-item">Dropdown item 2</a>
+						<a href="#" class="dropdown-item">Dropdown item 3</a>
+						<a href="#" class="dropdown-item">Dropdown item 4</a>
+						<a href="#" class="dropdown-item">Dropdown item 5</a>
+					</div></a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Someother Link</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">One more link</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+			</ul>
+		</div>
+		
+		
+
+		<div class="group mb-5">
+			<ul class="nav nav-pills">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">Active</a>
+			  </li>
+			  <li class="nav-item dropdown">
+			    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+			    <div class="dropdown-menu">
+			      <a class="dropdown-item" href="#">Action</a>
+			      <a class="dropdown-item" href="#">Another action</a>
+			      <a class="dropdown-item" href="#">Something else here</a>
+			      <div class="dropdown-divider"></div>
+			      <a class="dropdown-item" href="#">Separated link</a>
+			    </div>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" href="#">Disabled</a>
+			  </li>
+			</ul>
+		</div>
+
+
+		<!-- Nav with tabbable functionality -->
+
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active mt-4" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit doloremque harum nihil, quisquam nisi architecto similique at eligendi commodi itaque dolores, obcaecati impedit modi aut, earum tempore alias. Officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eos deleniti sint soluta suscipit perferendis iure vitae, voluptatibus, quia saepe iusto commodi! Aliquam eaque delectus, alias expedita unde, sed officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ratione temporibus accusamus voluptatum odio minus dolorem dolores maiores facilis accusantium illum sequi culpa similique numquam placeat, repellendus rerum magni soluta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda officiis, esse perspiciatis, sequi expedita corporis, illum commodi dolorem minus cum dolorum beatae. Sed sunt, cum laboriosam aut rerum debitis est!</div>
+		  <div class="tab-pane fade mt-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusamus molestias, officia. Rerum maiores similique numquam quam blanditiis veniam voluptatum illum, sit, debitis nesciunt officia, laboriosam suscipit saepe vitae labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea, totam possimus maiores, voluptas beatae est accusantium? Nihil eligendi nobis architecto, adipisci, expedita magnam consectetur inventore, explicabo tenetur dicta pariatur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores tenetur perspiciatis sint quas fuga accusamus natus nulla tempore ea ipsum dicta, ratione perferendis sed consequatur nostrum! Eius, tenetur totam quam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorem, et magnam repellendus culpa veritatis provident eos odit sint sed fugiat corrupti accusamus earum suscipit natus voluptas at, impedit nostrum.</div>
+		  <div class="tab-pane fade mt-4" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quos rerum praesentium error obcaecati reprehenderit enim eligendi repudiandae consequatur eum ducimus, itaque omnis eos maiores aliquam ab modi incidunt veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eum, quasi optio reiciendis, architecto ad quo tempore nulla eaque reprehenderit minima, sit esse recusandae. Quas labore at sequi obcaecati dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sapiente, ducimus, numquam repellat officiis consequatur modi laudantium, doloremque dolor illum nulla aut in soluta architecto asperiores quod et error. Perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut excepturi molestiae quia voluptate fugit nihil quas eius sequi placeat nostrum quos nobis impedit cumque aliquid quam, expedita in! Neque, facere.</div>
+		</div>
+	
+		<!-- Verticle alignment -->
+		
+		<div class="group mb-5 mt-5">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+					  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+					  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+					  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="tab-content" id="v-pills-tabContent">
+					  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati totam, perspiciatis alias distinctio temporibus aperiam aut delectus magni sed ratione, quas deserunt blanditiis cupiditate architecto animi nemo necessitatibus ea debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem doloremque eligendi iure odit. Veritatis nihil esse accusantium, enim commodi quam obcaecati natus ipsum, maxime fugiat quis impedit laborum magni nam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nemo similique earum, molestiae iure voluptates quisquam eveniet officia minus neque quo doloremque iste? Est tenetur repellat asperiores voluptate aperiam ab.</div>
+					  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores aut placeat et fugiat facere, asperiores repellendus blanditiis quis tenetur perspiciatis nobis ducimus molestias autem veniam at. Consequatur pariatur, obcaecati accusamus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione doloremque, suscipit soluta nobis. Aspernatur dolore, iusto veritatis et doloremque voluptatum aperiam beatae incidunt. Architecto quibusdam earum tempora aliquam, aperiam aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nemo voluptas cumque repudiandae itaque ipsam impedit corporis aperiam repellat aspernatur error, quidem commodi laboriosam suscipit laborum tenetur illo molestias consectetur.</div>
+					  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque, eius magnam aut, temporibus, facere fugiat libero mollitia, commodi architecto illum officia sapiente voluptatem. Voluptatum tempore nesciunt, asperiores cupiditate libero.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequatur similique illum, culpa non earum minima blanditiis ducimus natus iste illo accusamus laboriosam voluptate veniam aliquam nobis magni, veritatis animi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, nihil nemo vel. Dolorum facere asperiores eum, recusandae, placeat, ea magnam saepe autem voluptatum architecto quia nesciunt rem accusamus ratione pariatur.</div>
+					  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ab pariatur, recusandae iusto rem accusantium. Obcaecati nam voluptatem dolorum, voluptates itaque ipsam ex quas quisquam expedita! Maiores at, reprehenderit earum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo culpa nam asperiores, maiores necessitatibus itaque inventore cumque! Enim aliquam, deserunt voluptate alias, cupiditate, illum, dicta atque amet possimus velit soluta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam veritatis, consectetur atque tempore sunt temporibus corporis earum in nemo recusandae vero similique odit aliquam facere soluta, aliquid laborum facilis rem.</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
+
+
+
+	</div>
+
+	<div style="margin-bottom: 400px"></div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+</body>
+</html>

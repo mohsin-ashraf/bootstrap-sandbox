@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+</head>
+<body>
+	<div class="container mt-5 ">
+		<form class="form">
+			<fieldset class="form-group">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>First Name</label>
+							<input type="text" name="fristname" class="form-control">
+						</div>
+						<div class="valid-feedback">
+							looks good!
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Last Name</label>
+							<input type="text" name="lastname" class="form-control">
+						</div>
+						<div class="valid-feedback">
+							looks good!
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Username</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text">@</div>
+								</div>
+								<input type="text" name="username" placeholder="Username" class="form-control">
+							</div>
+						</div>
+						<div class="invalid-feedback">
+							please choose a username!
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>City</label>
+							<input type="text" name="city" class="form-control" placeholder="City">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>State</label>
+							<input type="text" name="State" class="form-control" placeholder="State">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group">
+							<label>ZipCode</label>
+							<input type="number" name="zipcode" class="form-control" placeholder="zip code">
+						</div>
+					</div>
+				</div>
+				<div class="input-group">
+					<label>
+						<input type="checkbox" name="agree" class="input-check">
+						Agree to terms and conditions
+					</label>
+				</div>
+				<div class="from-group">
+					<input type="submit" name="submit" value="submit form" class="btn btn-primary">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

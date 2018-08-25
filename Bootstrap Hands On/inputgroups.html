@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap Carousel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+</head>
+<body>
+	<div class="container mt-5">
+		<!-- Prepend example  -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">@</span>
+			</div>
+			<input type="text" name="username" class="form-control">
+			<!-- Just to add the button at the end of the input field -->
+			<!-- <div class="input-group-append">
+				<button class="btn-primary btn">Click Me</button>
+			</div> -->
+		</div>
+		<!-- Append example -->
+		<div class="input-group mb-3">
+			<input type="text" name="email" class="form-control" placeholder="example@example.com">
+			<div class="input-group-append">
+				<span class="input-group-text">@example.com</span>
+			</div>
+		</div>
+		<!-- giving the default url first and then allowing to enter something to follow along example-->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">https://example.com/users</span>
+			</div>
+			<input type="text" name="username" placeholder="johnsmith" class="form-control">
+		</div>
+
+		<!-- Example of appending and prepending at the same time -->
+
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">$</span>
+			</div>
+			<input type="text" name="money" class="form-control" >
+			<div class="input-group-append">
+				<span class="input-group-text">0.0</span>
+			</div>
+		</div>
+		<!-- Text area with prepend example -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">With Textarea</span>
+			</div>
+			<textarea class="form-control" area-label="With Textarea"></textarea>
+		</div>
+
+		<!-- Sizing of input group elements -->
+		
+		<!-- small size -->
+		<div class="input-group input-group-sm mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">
+					Small
+				</span>
+			</div>
+			<input type="text" name="small" class="form-control">
+		</div>
+
+		<!-- normal size  -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">medium</span>
+			</div>
+			<input type="text" name="medium" class="form-control">
+		</div>
+
+		<!-- Large size -->
+		<div class="input-group input-group-lg mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">Large</span>
+			</div>
+			<input type="text" name="large" class="form-control">
+		</div>
+
+		<!-- checkbox as a prepend text -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<div class="input-group-text">
+					<input type="checkbox" name="checkbox">
+				</div>
+			</div>
+			<input type="text" name="checkbox" class="form-control">
+		</div>
+
+		<!-- radio button as a prepend text -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<div class="input-group-text">
+					<input type="radio" name="radio">
+				</div>
+			</div>
+			<input type="text" name="radio" class="form-control">
+		</div>
+
+		<!-- prepend with multiple inputs in a single line -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">First and Last name</span>
+			</div>
+			<input type="text" name="none" class="form-control" placeholder="First name">
+			<input type="text" name="none" class="form-control" placeholder="Last name">
+		</div>
+
+		<!-- multiple prepend text -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">$</span>
+				<span class="input-group-text">0.00</span>
+			</div>
+			<input type="text" name="none" class="form-control">
+		</div>
+
+		<!-- multiple append text -->
+		<div class="input-group mb-3">
+			<input type="text" name="none" class="form-control">
+			<div class="input-group-append">
+				<span class="input-group-text">$</span>
+				<span class="input-group-text">0.00</span>
+			</div>
+		</div>
+
+		<!-- buttons with input text with prepend -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<button class="btn btn-outline-secondary">Click Me</button>
+			</div>
+			<input type="text" class="form-control">
+		</div>
+
+		<!-- buttons with input text with append -->
+		<div class="input-group mb-3">
+			<input type="text" class="form-control">
+			<div class="input-group-append">
+				<button class="btn btn-outline-primary">Primary button</button>
+			</div>
+		</div>
+		<!-- Double buttons prepend -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<button class="btn btn-outline-danger">Danger</button>
+				<button class="btn btn-outline-primary">Primary</button>
+			</div>
+			<input type="text" class="form-control">
+		</div>
+		<!-- Double buttons append -->
+		<div class="input-group mb-3">
+			<input type="text" class="form-control">
+			<div class="input-group-append">
+				<button class="btn btn-outline-primary">Button One</button>
+				<button class="btn btn-outline-primary">Button Two</button>
+			</div>
+		</div>
+	
+		<!-- input group with prepend dropdown menu -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<button class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Action 1</a>
+					<a href="#" class="dropdown-item">Action 2</a>
+					<a href="#" class="dropdown-item">Action 3</a>
+					<a href="#" class="dropdown-item">Action 4</a>
+				</div>
+			</div>
+			<input type="text" class="form-control">
+		</div>	
+		<!-- input group with append dropdown menu -->
+		<div class="input-group mb-3">
+			<input type="text" class="form-control">
+			<div class="input-group-append">
+				<button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Action 1</a>
+					<a href="#" class="dropdown-item">Action 2</a>
+					<a href="#" class="dropdown-item">Action 3</a>
+					<a href="#" class="dropdown-item">Action 4</a>
+				</div>
+			</div>
+		</div>
+
+<!-- Prepend Segmented buttons -->
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<button type="button" class="btn btn-outline-primary">Menu</button>
+				<button type="button" class="btn btn-outline-primary dropdown-toggle-split dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="sr-only">Toggle Dropdown</span>
+				</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Action 1</a>
+					<a href="#" class="dropdown-item">Action 2</a>
+					<a href="#" class="dropdown-item">Action 3</a>
+					<a href="#" class="dropdown-item">Action 4</a>
+					<a href="#" class="dropdown-item">Action 5</a>
+				</div>
+			</div>
+			<input type="text" class="form-control">
+		</div>
+<!-- Copied from docs -->
+	<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <button type="button" class="btn btn-outline-secondary">Action</button>
+	    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      <span class="sr-only">Toggle Dropdown</span>
+	    </button>
+	    <div class="dropdown-menu">
+	      <a class="dropdown-item" href="#">Action</a>
+	      <a class="dropdown-item" href="#">Another action</a>
+	      <a class="dropdown-item" href="#">Something else here</a>
+	      <div role="separator" class="dropdown-divider"></div>
+	      <a class="dropdown-item" href="#">Separated link</a>
+	    </div>
+	  </div>
+	  <input type="text" class="form-control" placeholder="Copied from docs" aria-label="Text input with segmented dropdown button">
+	</div>
+
+	<!-- Append Segment buttons  -->
+	<div class="input-group mb-3">
+		<input type="text" class="form-control">
+		<div class="input-group-append"><button class="btn btn-outline-secondary">Menu</button><button class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+				<span class="sr-only">Toggle Dropdown</span>
+			</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Action 1</a>
+				<a href="#" class="dropdown-item">Action 2</a>
+				<a href="#" class="dropdown-item">Action 3</a>
+				<a href="#" class="dropdown-item">Action 4</a>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- Select with input prepend -->
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<label for="options" class="input-group-text">Options</label>
+		</div>
+		<select name="options" id="options" class="custom-select">
+			<option value="none" disabled selected="">Select an option</option>
+			<option value="1">Action 1</option>
+			<option value="2">Action 2</option>
+			<option value="3">Action 3</option>
+			<option value="4">Action 4</option>
+			<option value="5">Action 5</option>
+		</select>
+	</div>
+
+
+<!-- From docs -->
+	<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+	  </div>
+	  <select class="custom-select" id="inputGroupSelect01">
+	    <option selected disabled="true">From docs...</option>
+	    <option value="1">One</option>
+	    <option value="2">Two</option>
+	    <option value="3">Three</option>
+	  </select>
+	</div>
+<!-- Select input with append label -->
+	<div class="input-group mb-3">
+		<select name="none" id="input-group-select-2" class="custom-select">
+			<option value="none" selected="" disabled="">Select one of the following action</option>
+			<option value="1">Action 1</option>
+			<option value="2">Action 2</option>
+			<option value="3">Action 3</option>
+			<option value="4">Action 4</option>
+			<option value="5">Action 5</option>
+		</select>
+		<div class="input-group-append">
+			<label for="none" class="input-group-text">
+				Options
+			</label>
+		</div>
+	</div>
+
+<!-- Select input with button prepend -->
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<button class="btn btn-outline-secondary">Select one</button>
+		</div>
+		<select name="#" id="#" class="custom-select">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+	</div>
+
+	<div class="input-group mb-3">
+		<select name="#" id="#" class="custom-select">
+			<option value="#">Actoin</option>
+			<option value="#">Actoin</option>
+			<option value="#">Actoin</option>
+			<option value="#">Actoin</option>
+			<option value="#">Actoin</option></select>
+		<div class="input-group-append"><button class="btn btn-outline-secondary">Options</button></div>
+	</div>
+	
+	<!-- Upload file with prepend and custom-file-label -->
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<span class="input-group-text">
+				Upload
+			</span>
+		</div>
+		<div class="custom-file">
+			<input type="file" name="#" id="#" class="custom-file-input">
+			<label for="#" class="custom-file-label">Choose File</label>
+		</div>
+	</div>
+	
+	<!-- With append -->
+	<div class="input-group mb-3">
+		<div class="custom-file">
+			<input type="file" name="" id="none" class="custom-file-input">
+			<label for="" class="custom-file-label">
+				Browse
+			</label>
+		</div>
+		<div class="input-group-append">
+			<span class="input-group-text">
+				Upload
+			</span>
+		</div>
+	</div>
+	
+
+	<!-- Same thing with prepend with button -->
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<button class="btn btn-outline-secondary">
+				Button
+			</button>
+		</div>
+		<div class="custom-file">
+			<input type="file" name="" id="" class="custom-file-input">
+			<label for="" class="custom-file-label">
+				Browse
+			</label>
+		</div>
+	</div>
+
+	<!-- Same thing with append button -->
+	<div class="input-group mb-3">
+		<div class="custom-file">
+			<input type="file" name="#" id="#" class="custom-file-input">
+			<label for="#" class="custom-file-label">
+				Browse
+			</label>
+		</div>
+		<div class="input-group-append">
+			<button class="btn btn-outline-secondary">
+				Button
+			</button>
+		</div>
+	</div>
+
+
+
+
+
+	</div>
+	<div style="margin-bottom: 400px"></div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+	
+</body>
+</html>
